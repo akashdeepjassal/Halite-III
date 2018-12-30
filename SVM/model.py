@@ -13,7 +13,7 @@ from hlt import positionals
 
 
 class HaliteModel:
-    MAX_FILES = 30
+    MAX_FILES = 35
     DIRECTION_ORDER = [positionals.Direction.West,
                        positionals.Direction.North,
                        positionals.Direction.East,
