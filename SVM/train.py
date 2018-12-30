@@ -2,10 +2,14 @@
 
 import model
 
+#m = model.HaliteModel()
+#m.train_on_files('replays', 'aggressive')
+#m.save(file_name='aggressive.svc')
+
 m = model.HaliteModel()
-m.train_on_files('training', 'aggressive')
+m.train_on_files('replays', 'aggressive')
 m.save(file_name='aggressive.svc')
 
 m = model.HaliteModel()
-m.train_on_files('training', 'passive')
+m.train_on_files('replays', 'passive')
 m.save(file_name='passive.svc')
